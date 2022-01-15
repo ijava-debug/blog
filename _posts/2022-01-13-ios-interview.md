@@ -9,7 +9,7 @@ categories: jekyll update
   
 
 {: .note .info}
-就显示这么多了，没有了1
+就显示这么多了，没有了
 
 
 
