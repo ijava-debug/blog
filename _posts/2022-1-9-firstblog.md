@@ -9,8 +9,8 @@ title: 计算机组成原理第一章
 
   
 
-```objective-c
-{% highlight objective-c linenos %}
+```java
+{% highlight java linenos %}
 # some ruby code
 NSString *string = @"Hello world!";
 NSLog(string);
