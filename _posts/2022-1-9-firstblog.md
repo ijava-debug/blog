@@ -9,10 +9,10 @@ title: 计算机组成原理第一章
 
   
 
-```java
+
 {% highlight java linenos %}
 # some ruby code
 NSString *string = @"Hello world!";
 NSLog(string);
 {% endhighlight %}
-```
+
