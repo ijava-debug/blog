@@ -10,9 +10,11 @@ title: 计算机组成原理第一章
   
 
 
-{% highlight objective-c linenos %}
+{% highlight java linenos %}
 # some ruby code
-NSString *string = @"Hello world!";
-NSLog(string);
+int a = 10;
+public void showMesg{
+	printf("hello world");
+}
 {% endhighlight %}
 
