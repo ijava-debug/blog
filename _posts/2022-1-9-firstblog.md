@@ -27,7 +27,7 @@ title: 计算机组成原理(1)
 
 1945年冯诺伊曼提出了"存储程序"的概念，以此为基础的各类计算机成为冯诺伊曼计算机。  
 
-![](https://raw.githubusercontent.com/ijava-debug/pic/main/%E5%86%AF%E8%AF%BA%E4%BC%8A%E6%9B%BC%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%93%E6%9E%84%E6%A1%86%E5%9B%BE.png)
+<div align=center><img src="https://raw.githubusercontent.com/ijava-debug/pic/main/%E5%86%AF%E8%AF%BA%E4%BC%8A%E6%9B%BC%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%93%E6%9E%84%E6%A1%86%E5%9B%BE.png"></div> 
 
 
 
@@ -60,12 +60,11 @@ title: 计算机组成原理(1)
 
 由于运算器和控制器在逻辑关系和电路结构上关系十分紧密，通常把它们合起来统称为中央处理器（Central Processing Unit,CPU）。把输入输出设置简称为I/O设备（Input/Output Equitment）。这样现代计算机可认为由三大部分组成：CPU、I/O设备、主存储器（Main Memory,MM），如下图所示。CPU和主存储器和起来称为主机，I/O设备称为外部设备。
 
-![](https://raw.githubusercontent.com/ijava-debug/pic/main/%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%BB%84%E6%88%90%E6%A1%86%E5%9B%BE.png)    
+<div align=center><img src="https://raw.githubusercontent.com/ijava-debug/pic/main/%E7%8E%B0%E4%BB%A3%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%BB%84%E6%88%90%E6%A1%86%E5%9B%BE.png"></div>
 
 ### 细化的计算机结构框图：
 
-![](https://raw.githubusercontent.com/ijava-debug/pic/main/%E7%BB%86%E5%8C%96%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E6%A1%86%E5%9B%BE.png)  
-
+<div align=center><img src="https://raw.githubusercontent.com/ijava-debug/pic/main/%E7%BB%86%E5%8C%96%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E6%A1%86%E5%9B%BE.png"></div>
 
 
 
@@ -75,11 +74,14 @@ title: 计算机组成原理(1)
 
 <!---
 语法高亮
+
+--->
+
 {% highlight java linenos %}
+
 # some ruby code
 int a = 10;
 public void showMesg{
 	printf("hello world");
 }
 {% endhighlight %}
---->
