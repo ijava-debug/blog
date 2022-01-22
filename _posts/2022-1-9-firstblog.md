@@ -43,7 +43,7 @@ title: 计算机组成原理(1)
 
 
 
-
+<% commonts %>
 
 
 {% highlight java linenos %}
@@ -54,3 +54,4 @@ public void showMesg{
 }
 {% endhighlight %}
 
+<% commonts %>
