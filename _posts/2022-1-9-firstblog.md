@@ -3,7 +3,7 @@ layout: post
 title: 计算机组成原理(1)
 ---
 {: .note .info}  
-本文主要介绍计算机的层次结构及计算机的基本组成
+本文主要介绍计算机的层次结构、计算机的基本组成及计算机硬件的主要技术指标
 
 ## 计算机的层次结构
 如图所示：  
@@ -84,87 +84,5 @@ int a = 10;
 public void showMesg{
 	printf("hello world");
 }
-
-**if**(msg.shareChannel == NT_SHARE_TYPE_TWITTER) {
-
-​    NTLog(@"msg.shareChannel == NT_SHARE_TYPE_TWITTER");
-
-​    **if**(msg.shareBitmap == **nil** || [msg.text isEqualToString:@""] || [msg.link isEqualToString:@""]){
-
-​      NTLog(@"分享错误shareBitmap text link空");
-
-​      **return**;
-
-​    }
-
-​    [SDKTxwyPassport twitterFeed:msg.text image:msg.shareBitmap link:[NSURL URLWithString:msg.link] completion:^(**BOOL** success) {
-
-​      **if** (success) {
-
-​        NTLog(@"twitterFeed分享成功");
-
-​        [NtNotificationHelper postNotificationName:NT_NOTIFICATION_FINSIH_SHARE userInfo:@{@"result":@(**YES**)}];
-
-​      }
-
-​      **else** {
-
-​        NTLog(@"twitterFeed分享failed");
-
-​        [NtNotificationHelper postNotificationName:NT_NOTIFICATION_FINSIH_SHARE userInfo:@{@"result":@(**NO**)}];
-
-​      }
-
-​    }];
-
-  }
-
-  **if**(msg.shareChannel == NT_SHARE_TYPE_KAKAO) {
-
-​    NTLog(@"msg.shareChannel == NT_SHARE_TYPE_KAKAO");
-
-​    **if**(msg.shareBitmap == **nil**){
-
-​      NTLog(@"分享错误shareBitmap空");
-
-​      **return**;
-
-​    }
-
-​    **if**([msg.text isEqualToString:@""]){
-
-​      NTLog(@" text空 KakaoTalkFeed");
-
-​      **if**([msg.link isEqualToString:@""]){
-
-​        NTLog(@"分享错误 link空");
-
-​        **return**;
-
-​      }
-
-​      [SDKTxwyPassport KakaoTalkFeed:[NSURL URLWithString:msg.link] title:msg.title description:msg.desc image:msg.shareBitmap completion:^(**BOOL** success) {
-
-​        **if** (success) {
-
-​          NTLog(@"KakaoTalkFeed分享成功");
-
-​          [NtNotificationHelper postNotificationName:NT_NOTIFICATION_FINSIH_SHARE userInfo:@{@"result":@(**YES**)}];
-
-​        }
-
-​        **else** {
-
-​          NTLog(@"KakaoTalkFeed分享失败");
-
-​          [NtNotificationHelper postNotificationName:NT_NOTIFICATION_FINSIH_SHARE userInfo:@{@"result":@(**NO**)}];
-
-​        }
-
-​      }];
-
-​      **return**;
-
-​    }
 
 {% endhighlight %}
