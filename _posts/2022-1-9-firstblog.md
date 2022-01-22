@@ -69,9 +69,8 @@ title: 计算机组成原理(1)
 
 
 
-<% comments %>
-
-
+<!------>
+语法高亮
 {% highlight java linenos %}
 # some ruby code
 int a = 10;
@@ -80,4 +79,3 @@ public void showMesg{
 }
 {% endhighlight %}
 
-<% comments %>
