@@ -66,11 +66,11 @@ title: 计算机组成原理(1)
 
 
 
-
+语法高亮
 
 
 <!------>
-语法高亮
+
 {% highlight java linenos %}
 # some ruby code
 int a = 10;
